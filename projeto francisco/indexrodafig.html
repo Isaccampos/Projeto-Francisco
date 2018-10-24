@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entendo o DOM (Document Object Model)</title>
+    <script>
+        cont=1;
+        cont=3; 
+
+        function mudaFigura(id) {
+
+            var arrImg = ['imagens/fig1.jpg','imagens/fig2.jpg','imagens/fig3.jpg'];
+            if (cont < arrImg.length){
+                var img = document.getElementById(id).src=arrImg[cont];
+                cont++;
+
+            } else{
+                cont = 0;
+                var img = document.getElementById(id).src =arrImg[cont];
+                cont ++;
+            }
+        }
+
+        function enviar() {
+            mudaFigura("imagem");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Imagem</h1>
+        <img src="imagens/fig1.jpg" id="imagem" /><br>
+        <input type="button" id="muda" value="progredir" onclick="javascript: return enviar()">
+    </div>
+    <input type="text" readonly value="Escreva aqui!">
+
+</body>
+
+</html>

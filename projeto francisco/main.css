@@ -1,0 +1,88 @@
+body{
+
+    background:  #F4A460;
+    color: rgb(19, 7, 7);
+}
+header{
+
+	width: 100%;
+    height: 70px;
+}
+
+#titulo{
+    background:rgb(180, 90, 20) ;
+    width: 1200px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #f54906;
+	border-radius: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#topocentro{
+
+    background:rgb(180, 90, 20) ;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#topoopcoes{
+	width: 800px;
+	height: 70px;
+	padding-left: 100px;
+    float: left;
+}
+
+#logo{
+    width: 100px;
+    height: 70px;
+    float: left;
+    padding-left:20px;
+}
+img{
+	width: 130px;
+	height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+font-family: 'Gloria Hallelujah', cursive;
+
+//h1{
+//    background: rgb(180, 90, 20);
+//   text-align: center;
+//   color: black;
+//    font-size: 50px;
+    position: relative;
+    width: 100%
+}
+
+link{
+    color:black;
+    text-decoration: underline ;
+    background:brown;
+    border:ridge;
+    padding: 10px;
+}
+
+
+H6{
+     background: rgb(180, 90, 20);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    width: 100%
+}
+    
